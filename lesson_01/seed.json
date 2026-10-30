@@ -1,28 +1,58 @@
 [
   {
-    "_comment": "Замените содержимое на свою предметную область. Пять документов, минимум у двух форма отличается.",
-    "title": "пример: карточка заказа",
-    "status": "новый",
-    "total": 4500,
-    "items": [
-      {
-        "name": "букет «Осень»",
-        "qty": 1,
-        "price": 3200
-      },
-      {
-        "name": "открытка",
-        "qty": 2,
-        "price": 650
-      }
-    ],
-    "customer": {
-      "name": "Иванов И.",
-      "phone": "+7 900 000-00-00"
-    },
-    "tags": [
-      "самовывоз",
-      "срочно"
-    ]
+    "_id": "t-001",
+    "number": "HT-001",
+    "created": { "$date": "2026-09-02T09:15:00Z" },
+    "customer": { "name": "ООО «Вектор»", "contact": "vetor@example.ru" },
+    "priority": "высокий",
+    "status": "решен",
+    "hours": 4,
+    "tags": ["доступ", "сеть"],
+    "solution": { "engineer": "Миронов", "hours": 3 }
+  },
+  {
+    "_id": "t-002",
+    "number": "HT-002",
+    "created": { "$date": "2026-09-03T11:40:00Z" },
+    "customer": { "name": "ИП Сомова", "contact": "+7 910 000-11-22" },
+    "priority": "средний",
+    "status": "в работе",
+    "hours": 2,
+    "tags": ["печать"],
+    "solution": null
+  },
+  {
+    "_id": "t-003",
+    "number": "HT-003",
+    "created": { "$date": "2026-09-04T16:05:00Z" },
+    "customer": { "name": "Сомова", "contact": "somova@example.ru" },
+    "priority": "низкий",
+    "status": "решен",
+    "hours": 1,
+    "tags": ["почта", "настройка"],
+    "solution": { "engineer": "Ким", "hours": 1 }
+  },
+  {
+    "_id": "t-004",
+    "number": "HT-004",
+    "created": { "$date": "2026-09-05T08:30:00Z" },
+    "customer": { "name": "ООО «Вектор»", "contact": "vetor@example.ru", "phone": "+7 900 123-45-67" },
+    "priority": "высокий",
+    "status": "в работе",
+    "hours": 6,
+    "tags": ["касса", "оборудование"],
+    "solution": { "engineer": "Миронов", "hours": 2 }
+  },
+  {
+    "_id": "t-005",
+    "number": "HT-005",
+    "created": { "$date": "2026-09-06T13:20:00Z" },
+    "customer": { "name": "Магазин «Лента»", "contact": "lenta@example.ru" },
+    "priority": "средний",
+    "status": "закрыт без решения",
+    "hours": 1,
+    "tags": ["печать", "драйвер"],
+    "solution": null,
+    "comment": "Клиент перезвонил и отменил заявку"
   }
 ]
