@@ -1,0 +1,30 @@
+{
+  "fio": "Бацаценко Алеся Андреевна",
+  "position": "Junior Frontend-разработчик",
+  "city": "Ярославль",
+  "salary": 80000,
+  "ready_to_move": true,
+  "updated": "2026-10-30T12:00:00Z",
+  "skills": ["SQL", "Python", "Git", "Docker", "MongoDB", "JavaScript", "React", "Node.js"],
+  "education": {
+    "level": "СПО",
+    "place": "Колледж, «Разработка программного обеспечения»",
+    "year": 2027
+  },
+  "experience": [
+    {
+      "company": "Учебный проект «CRM для агрегатора заявок»",
+      "role": "менеджер проекта",
+      "months": 8
+    },
+    {
+      "company": "Учебный проект «ТГ-бот для путешественников»",
+      "role": "full-stack разработчик",
+      "months": 6
+    }
+  ],
+  "contacts": {
+    "email": "alesssftf@gmail.com",
+    "tg": "@alessstis"
+  }
+}
